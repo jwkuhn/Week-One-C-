@@ -1,0 +1,13 @@
+// ConsoleApplication7.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout << "Hello World!" << endl;
+	cout << "My name is Jay William Kuhn JR., this is course CMPSC for the third semester" << endl;
+	; return 0;
+}
