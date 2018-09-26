@@ -1,0 +1,45 @@
+// ConsoleApplication9.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+// Data
+	const double gravity = -9.81;
+	double velocity;
+	double distance;
+	double height;
+	double angle;
+	const double PI = 3.14159;
+
+	double finalv;
+	double finalh;
+	double finala;
+	double time;
+	double acc;
+	double displacement;
+
+	// initial velocity
+	cout << "This program will redo the physics and trigonoetry of the popular game Angry Brids" << endl;
+	cout << "Lets see if the Angry Bird will hit the structure" << endl;
+	cout << "Enter Initial Velocity (m/s)" << endl;
+	cin >> velocity;
+
+	// Initial Angle
+	cout << "Enter initial angle (in degrees above x-axis";
+	cin >> angle;
+	
+	// Initial distance/height
+	cout << "Enter initial distance";
+	cin >> distance;
+
+	cout << "Enter initial Height";
+	cin >> height;
+
+	// 
+	return 0;
+}
+
