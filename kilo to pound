@@ -1,0 +1,16 @@
+// ConsoleApplication11.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float kilogram,pound;
+	cout << "Enter Kilogram: ";
+	cin >> kilogram;
+	pound = kilogram * 2.21;
+	cout << kilogram << " kg = " << pound << "pound";
+    return 0;
+}
