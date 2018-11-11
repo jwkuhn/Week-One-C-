@@ -1,0 +1,23 @@
+// fs = the frequency of the sound wave at the source (standard units: Hz)
+// vr = the velocity of the receiver (standard units: m/s)
+// vs = the velocity of the source (standard units: m/s)
+// vw = the velocity of the sound wave (the speed of sound is 340 m/s)
+
+#include "pch.h"
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+	double fs;
+	double vr;
+	double vs;
+	double fr;
+
+	cout << "Enter the frequency of the sound wave at the source " << fs << "Hz";
+	cin >> fs;
+	fr = fs * ((340 + vr) / (340 + vs));
+
+	return 0;
+}
